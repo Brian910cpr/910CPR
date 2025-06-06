@@ -2,19 +2,69 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>910CPR - Emergency Training Made Easy</title>
-  <meta name="description" content="Find the right CPR, BLS, ACLS, PALS, OSHA, or USCG class for your needs. 910CPR offers easy scheduling in Wilmington and Jacksonville.">
-  <link rel="stylesheet" href="styles.css">
+  <title>910CPR - Find Your Class</title>
+  <meta name="description" content="Choose the right CPR, BLS, ACLS, PALS, OSHA, or USCG class at 910CPR. Fast scheduling, multiple certifying bodies, and tailored options for every profession.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f8f8f8;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #004466;
+      color: white;
+    }
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    section {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      margin-top: 0;
+      color: #004466;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    a {
+      text-decoration: none;
+      color: #007acc;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>910CPR - Find the Right Class Fast!</h1>
-    <p>Choose from our classes based on certification body, class type, or your profession.</p>
+    <p>Choose your training by Certifying Body, Class Type, or What You Do for Work.</p>
   </header>
-  
   <main>
-    <section class="column">
-      <h2>Choose Your Certification Body</h2>
+    <!-- Column 1: Certifying Body -->
+    <section>
+      <h2>Choose Your Certifying Body</h2>
       <ul>
         <li><a href="aha.html">AHA</a></li>
         <li><a href="arc.html">ARC</a></li>
@@ -24,7 +74,8 @@
       </ul>
     </section>
 
-    <section class="column">
+    <!-- Column 2: Class Type -->
+    <section>
       <h2>Choose Your Class Type</h2>
       <ul>
         <li><a href="cpr-aed.html">CPR/AED</a></li>
@@ -32,19 +83,23 @@
         <li><a href="bls.html">BLS</a></li>
         <li><a href="acls.html">ACLS</a></li>
         <li><a href="pals.html">PALS</a></li>
+        <li><a href="osha-safety.html">OSHA Safety</a></li>
+        <li><a href="uscg.html">USCG First Aid</a></li>
       </ul>
     </section>
 
-    <section class="column">
+    <!-- Column 3: What Do You Do for Work? -->
+    <section>
       <h2>What Do You Do for Work?</h2>
       <ul>
         <li><a href="medical.html">Medical Professionals</a></li>
         <li><a href="construction.html">Construction/Industry</a></li>
         <li><a href="family.html">Family/Parents</a></li>
+        <li><a href="childcare.html">Childcare Providers</a></li>
+        <li><a href="teachers.html">Teachers/Staff</a></li>
       </ul>
     </section>
   </main>
-  
   <footer>
     <p>&copy; 2025 910CPR. All rights reserved.</p>
   </footer>
